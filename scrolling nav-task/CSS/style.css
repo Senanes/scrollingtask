@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: rgb(33, 37, 41);
+    padding: 18px 8rem;
+    position: fixed;
+    width: 100%;
+    font-family: system-ui,
+    -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.start{
+    float: left;
+}
+.navbar{
+    float: right;
+}
+
+.start h3{
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+
+.header .navbar a{
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 25px;
+}
+
+.text{
+    background-color: rgb(13, 110, 253);
+    padding: 9rem;
+    text-align: center;
+    color: white;
+    font-family: system-ui,
+    -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text h1{
+    margin: 0 0 8px;
+    font-size: 40px;
+}
+
+.text p{
+    margin: 0 0 16px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 1.25rem;
+    
+}
+
+.text .main{
+    color: black;
+    background-color: #f8f9fa;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+
+}
+
+
