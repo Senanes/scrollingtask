@@ -67,4 +67,28 @@ a{
 
 }
 
+.about{
+    width: 85%;
+    float: right;
+    padding: 7rem;
+    margin: auto;
+    font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+.about h2{
+    font-size: 32px;
+    margin: 0 0 8px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.about p{
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.about li{
+    margin: 5px 30px;
+}
 
